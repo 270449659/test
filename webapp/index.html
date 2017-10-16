@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/iconfont.css" rel="stylesheet"/>
+      <link href="css/style.css" rel="stylesheet"/>
+     	<style type="text/css">
+		.mui-active .mui-icon,
+		.mui-active .mui-tab-label {
+			color: #41cea9;
+		}
+   	</style>
+</style>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <script type="text/javascript">
+      (function (win,doc) {
+        function setSize() {
+          doc.documentElement.style.fontSize=10*document.documentElement.clientWidth/100+'px';
+        }
+        setSize();
+        win.addEventListener('resize',setSize,false)
+      })(window,document)
+  </script>
+</head>
+<body>
+
+	<div id="index" class="mui-off-canvas-wrap mui-draggable mui-slide-in">
+			<!--侧滑菜单部分-->
+			<aside  class="mui-off-canvas-left mui-transitioning" >
+				<header id="header" class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">
+			<div class="mui-input-row mui-search">
+	    	    <input type="search" class="mui-input-clear" placeholder="" data-input-clear="2" data-input-search="2"><span 
+
+class="mui-icon mui-icon-clear mui-hidden"></span><span class="mui-placeholder"><span class="mui-icon mui-icon-search"></span><span>请
+
+输入要搜索的关键字</span></span>
+	    	</div>
+		</h1>
+     <!--  <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-right">登录</a>-->	
+	</header>					
+						<div class="mui-content mui-scroll" style="height: 100%;" >
+					<div class="content goods mui-row mui-fullscreen " style="background-color:#fff">					
+			<div id="offCanvasnav" class="mui-nav mui-col-xs-3" >
+				<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted">
+							<a class="mui-control-item mui-active" href="#item1">为你推荐</a>
+							<a class="mui-control-item" href="#item2">国际大牌</a>
+							<a class="mui-control-item" href="#item3">女装</a>
+							<a class="mui-control-item" href="#item4">男装</a>
+							<a class="mui-control-item" href="#item5">母婴</a>
+							<a class="mui-control-item" href="#item6">手机</a>
+							<a class="mui-control-item" href="#item7">数码</a>
+							<a class="mui-control-item" href="#item8">家电</a>
+							<a class="mui-control-item" href="#item9">美妆</a>
+							<a class="mui-control-item" href="#item10">箱包</a>
+							<a class="mui-control-item" href="#item11">户外</a>
+							<a class="mui-control-item" href="#item12">家装</a>
+							<a class="mui-control-item" href="#item13">居家</a>
+							<a class="mui-control-item" href="#item14">饰品</a>
+							<a class="mui-control-item" href="#item15">食品</a>
+							<a class="mui-control-item" href="#item16">生鲜</a>
+							<a class="mui-control-item" href="#item17">汽车摩天</a>
+							<a class="mui-control-item" href="#item18">医药</a>
+							<a class="mui-control-item" href="#item19">图书</a>
+							<a class="mui-control-item" href="#item20">通信</a>
+			    </div>
+			</div>
+			<div class="mui-menu mui-col-xs-9" >
+				<div id="item1" class="mui-control-content mui-active">
+		<div class="mui-content" style="background-color:#fff">
+		    <h5 class="mui-title" >女性</h5>
+		    <ul class="mui-table-view mui-grid-view">
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		                <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">幸福就是可以一起睡觉</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		                <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">想要一间这样的木屋，静静的喝咖啡</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		            <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">Color of SIP CBD</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		                <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">静静看这世界</div></a></li>
+		    </ul>    
+		</div>
+				</div>
+				<div id="item2" class="item2 mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<img src="images/banner1.jpg" />
+						</li>
+					</ul>
+				</div>
+				<div id="item3" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-1
+						</li>
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-2
+						</li>
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-3
+						</li>
+					</ul>
+				</div>
+			</div>				
+       </div>    
+       				</div>	<!--mui-content end-->  
+			</aside>
+			<!--主界面部分-->
+			<div class="mui-inner-wrap mui-transitioning index-mian"  > <!--index-->
+				<header class="mui-bar mui-bar-nav">
+					<a id="offCanvasShow" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+					<a  href="user.html" class="mui-action-back mui-btn mui-btn-link mui-pull-right">登陆</a>
+					<h1 class="mui-title">TMALL</h1>
+					<div class="mui-input-row mui-search">
+	    	    <input type="search" class="mui-input-clear" placeholder="" data-input-clear="2" data-input-search="2"><span class="mui-icon mui-icon-clear mui-hidden"></span><span class="mui-placeholder"><span class="mui-icon mui-icon-search"></span><span>请输入要搜索的关键字</span></span>
+	    	</div>
+				</header>
+				<div id="offCanvasContentScroll" class="mui-content mui-main mui-scroll-wrapper" >
+					<div class="mui-scroll"><!--内容滚动-->						
+<div class="mui-slider"><!--轮播-->
+   <div class="mui-slider-group mui-slider-loop">
+   	<!--支持循环，需要重复图片节点-->
+ <div class="mui-slider-item mui-slider-item-duplicate">
+    	<a href="#"><img src="images/banner2.jpg" /></a>
+   </div>
+    <div class="mui-slider-item">
+    <a href="#"> <img src="images/banner.jpg" /></a>
+    </div> 
+    <div class="mui-slider-item">
+    <a href="#"> <img src="images/banner1.jpg" /></a>
+    </div>
+    <div class="mui-slider-item">
+    <a href="#"> <img src="images/banner2.jpg" /></a>
+    </div>
+      <!--支持循环，需要重复图片节点-->
+   <div class="mui-slider-item mui-slider-item-duplicate">
+    	<a href="#"><img src="images/banner.jpg" /></a>
+    </div>
+  </div>
+  <div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+			</div>
+</div><!--mui-slider 轮播end-->
+		<ul class="nav">
+		<li>
+			<a href="search_product.html">
+				<img src="images/icon.png">
+				<p>分类</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon1.png">
+				<p>清单</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon2.png">
+				<p>团购</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon3.png">
+				<p>店铺街</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon4.png">
+				<p>订单</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon5.png">
+				<p>拼团</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon6.png">
+				<p>资金</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon7.png">
+				<p>购物车</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon8.png">
+				<p>砍价</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="images/icon9.png">
+				<p>app下载</p>
+			</a>
+		</li>
+	</ul>		 <!--nav end-->	
+	<div class="mui-content layout-class">
+    <div class="mui-row container-multiColumn-class">
+       <div class="mui-col-sm-12 mui-col-xs-12 mui-line1">
+        	<div class="tmallhot-class">
+            <li class="mui-table-view-cell tmallhot-li ">
+               
+                   <img alt="" class="tmallhot-img" style="background-color: white" src="images/TB1upuo.png">  
+               
+            </li>
+            <li class="mui-table-view-cell v-gap "></li>
+            <li class="mui-table-view-cell hot-spot-item ">
+               		<div class="line"> <div class="title">二十块木板打造室内花园，宜家又玩嗨了！</div> </div>
+				     <div class="line"> <div class="title">可口可乐零度停产 取代它的是Zero Sugar</div> </div> 
+				
+            </li>
+         </div>
+             </div>
+       <ul class="mui-table-view mui-grid-view mui-line2">
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6 container-multiColumn-item" >
+		            <a href="search_product.html"> <img class="mui-media-object" src="images/58055-1.jpg"> </a>
+		        </li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6 container-multiColumn-item" >
+		            <a href="search_product.html"> <img class="mui-media-object" src="images/58055-2.jpg"></a>
+		              </li>
+        </ul>
+       
+    </div>
+</div>  <!--layout-class end-->
+<!--商品-->
+	<div class="mui-content goods" style="background-color:#fff">
+		    <h5 style="background-color:#efeff4">女装</h5>
+		    <ul class="mui-table-view mui-grid-view goods-grid-view">
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a data-url="preview.html" href="javascript:;">
+		                <img class="mui-media-object" src="images/TB1.jpg">
+		                <div class="mui-media-body">幸福就是可以一起睡觉</div>
+		            <div class="rights-area"> <span class="right">官方直售</span></div>
+		            <div class="buy-line">
+		            	<div class="price">￥55</div> 
+		            	<div class="shop-car"></div> 
+		            </div>
+		            </a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a data-url="preview.html" href="javascript:;">
+		                <img class="mui-media-object" src="images/TB1.jpg">
+		                <div class="mui-media-body">想要一间这样的木屋，静静的喝咖啡</div>
+		                   <div class="rights-area"> <span class="right">官方直售</span></div>
+		            <div class="buy-line">
+		            	<div class="price">￥55</div> 
+		            	<div class="shop-car"></div> 
+		            </div>
+		            </a></li>
+		    </ul>    
+		</div>
+		<!--商品 end-->
+						
+					</div><!--内容滚动 end-->
+			
+				</div><!--mui-content end-->
+			
+				<div class="mui-off-canvas-backdrop"></div>
+			</div><!--mui-inner-wrapend -->  <!--index-->
+			
+			<!--<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item mui-active" href="home.html">
+			<span class="mui-icon iconfont icon-home"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a id="offCanvasShowa" class="mui-tab-item" >
+			<span class="mui-icon iconfont icon-fenlei"></span>
+			<span class="mui-tab-label">分类</span>
+		</a>
+
+		<a class="mui-tab-item" data-url="cart.html" href="javascript:;">
+			<span class="mui-icon iconfont icon-cart"></span>
+			<span class="mui-tab-label">购物车</span>
+		</a>
+		<a  id="user"  class="mui-tab-item" data-url="login.html" href="javascript:;"  >
+			<span class="mui-icon iconfont icon-wode"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>-->
+		</div> <!--mui-off-canvas-wrap end--> 
+
+<script>
+ mui.init({
+				swipeBack: false,
+				statusBarBackground: '#f7f7f7',
+				gestureConfig: {
+					doubletap: true
+				},
+				subpages: [{
+					id: 'footer-menu',
+					url: 'footer-menu.html',
+					styles: {
+						top:'',
+						bottom:0,
+						bounce: 'vertical'
+					}
+				}]
+			});
+			
+mui('.goods-grid-view').on('tap', 'a', function() {
+				var url = this.getAttribute("data-url");
+				close();
+				mui.openWindow({
+					id: url,
+					url: url,
+					waiting: {
+						autoShow: false
+					}
+				});
+			});			
+   // 监听tap事件，解决 a标签 不能跳转页面问题
+//mui('body').on('tap','a',function(){document.location.href=this.href;});
+
+    //获得slider插件对象
+var gallery = mui('.mui-slider');
+gallery.slider({
+  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+});
+    var index = mui('#index');//侧滑容器父节点
+    index[0].classList.add('mui-slide-in');//动画效果的类
+    index.offCanvas().refresh();//绑定动画效果     
+    
+    document.getElementById('offCanvasShow').addEventListener('tap',function() 
+    {
+        index.offCanvas('show');
+    });
+         
+//  document.getElementById('offCanvasHide').addEventListener('tap',function()
+//  {
+//      index.offCanvas('close');
+//  });
+//     
+    //支持区域滚动，需要添加.mui-scroll-wrapper
+   mui('#offCanvasnav').scroll();  
+   mui('#offCanvasSideScroll').scroll();    
+   mui('#offCanvasContentScroll').scroll();
+  
+   (function($, doc) {
+		 		//var user = doc.getElementById('user');
+					var offCanvasShowa = doc.getElementById('offCanvasShowa');					      
+//					user.addEventListener('tap', function(event) {
+//						$.openWindow({
+//							url: 'login.html',
+//							id: 'login',
+//						
+//						});
+//					}, false);
+				offCanvasShowa.addEventListener("tap",function () {
+				 index.offCanvas('show');
+					}, false);
+
+}(mui, document));
+    
+    
+    //实现ios平台的侧滑关闭页面；
+    if (mui.os.plus && mui.os.ios) 
+    {
+        index[0].addEventListener('shown',
+        function(e) { //菜单显示完成事件
+            plus.webview.currentWebview().setStyle
+            ({
+                'popGesture': 'none'
+            });
+        });
+        index[0].addEventListener('hidden',
+        function(e) 
+        {     //菜单关闭完成事件
+            plus.webview.currentWebview().setStyle
+            ({
+                'popGesture': 'close'
+            });
+        });
+    }
+
+    </script>
+</body>
+</html>

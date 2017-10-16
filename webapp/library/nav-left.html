@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/mui.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+ <style type="text/css">   	
+   </style> 
+	<body>
+	 
+	 <!--侧滑菜单部分-->
+			<aside  class="mui-off-canvas-left mui-transitioning" >
+				<header id="header" class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">
+			<div class="mui-input-row mui-search">
+	    	    <input type="search" class="mui-input-clear" placeholder="" data-input-clear="2" data-input-search="2"><span 
+
+class="mui-icon mui-icon-clear mui-hidden"></span><span class="mui-placeholder"><span class="mui-icon mui-icon-search"></span><span>请
+
+输入要搜索的关键字</span></span>
+	    	</div>
+		</h1>
+     <!--  <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-right">登录</a>-->	
+	</header>					
+						<div class="mui-content mui-scroll" style=" height: 100%;" >
+					<div class="content goods mui-row mui-fullscreen " style="background-color:#fff">					
+			<div id="offCanvasnav" class="mui-nav mui-col-xs-3" >
+				<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted">
+							<a class="mui-control-item mui-active" href="#item1">为你推荐</a>
+							<a class="mui-control-item" href="#item2">国际大牌</a>
+							<a class="mui-control-item" href="#item3">女装</a>
+							<a class="mui-control-item" href="#item4">男装</a>
+							<a class="mui-control-item" href="#item5">母婴</a>
+							<a class="mui-control-item" href="#item6">手机</a>
+							<a class="mui-control-item" href="#item7">数码</a>
+							<a class="mui-control-item" href="#item8">家电</a>
+							<a class="mui-control-item" href="#item9">美妆</a>
+							<a class="mui-control-item" href="#item10">箱包</a>
+							<a class="mui-control-item" href="#item11">户外</a>
+							<a class="mui-control-item" href="#item12">家装</a>
+							<a class="mui-control-item" href="#item13">居家</a>
+							<a class="mui-control-item" href="#item14">饰品</a>
+							<a class="mui-control-item" href="#item15">食品</a>
+							<a class="mui-control-item" href="#item16">生鲜</a>
+							<a class="mui-control-item" href="#item17">汽车摩天</a>
+							<a class="mui-control-item" href="#item18">医药</a>
+							<a class="mui-control-item" href="#item19">图书</a>
+							<a class="mui-control-item" href="#item20">通信</a>
+			    </div>
+			</div>
+			<div class="mui-menu mui-col-xs-9" >
+				<div id="item1" class="mui-control-content mui-active">
+		<div class="mui-content" style="background-color:#fff">
+		    <h5 class="mui-title" >女性</h5>
+		    <ul class="mui-table-view mui-grid-view">
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		                <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">幸福就是可以一起睡觉</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		                <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">想要一间这样的木屋，静静的喝咖啡</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		            <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">Color of SIP CBD</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-4">
+		            <a href="search_product.html">
+		                <img class="mui-media-object" src="./images/TB1.jpg">
+		                <div class="mui-media-body">静静看这世界</div></a></li>
+		    </ul>    
+		</div>
+				</div>
+				<div id="item2" class="item2 mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<img src="images/banner1.jpg" />
+						</li>
+					</ul>
+				</div>
+				<div id="item3" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-1
+						</li>
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-2
+						</li>
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-3
+						</li>
+					</ul>
+				</div>
+			</div>				
+       </div>    
+       				</div>	<!--mui-content end-->  
+			</aside>
+	
+		<script src="js/mui.min.js"></script>
+		<script src="js/mui.enterfocus.js"></script>
+		<script src="js/app.js"></script>
+		<script>
+		 mui.init({
+				swipeBack: false,
+				statusBarBackground: '#f7f7f7',
+				gestureConfig: {
+					doubletap: true
+				},
+				subpages: [{
+					id: 'footer-menu',
+					url: 'footer-menu.html',
+					styles: {
+						top:'',
+						bottom:0,
+						bounce: 'vertical'
+					}
+				}]
+			});
+			
+		(function($, doc) {
+				
+			     });
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/iconfont.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <script type="text/javascript">
+      (function (win,doc) {
+        function setSize() {
+          doc.documentElement.style.fontSize=10*document.documentElement.clientWidth/100+'px';
+        }
+        setSize();
+        win.addEventListener('resize',setSize,false)
+      })(window,document)
+  </script>
+</head>
+<body>
+
+   
+<div class="mui-content">
+	<div class="mui-scroll-wrapper">
+    <div class="mui-scroll">
+        <a class="mui-control-item mui-active">
+            推荐
+        </a>
+        <a class="mui-control-item">
+            热点
+        </a>
+        <a class="mui-control-item">
+            北京
+        </a>
+        <a class="mui-control-item">
+            社会
+        </a>
+        <a class="mui-control-item">
+            娱乐
+        </a>
+        <a class="mui-control-item">
+            科技
+        </a>
+    </div>
+</div>
+ </div>
+
+<script>
+
+ var addcart = document.getElementById("addcart");
+ var offbtn = document.getElementById("offbtn");
+//监听点击事件
+addcart.addEventListener("tap",function () {
+ 	mui('.mui-popover').popover('show');
+});
+offbtn.addEventListener("tap",function () {
+ 	mui('.mui-popover').popover('hide');
+});
+//function openPopover() {
+//  mui('.mui-popover').popover('toggle');
+//  	     popover.className+="mui-active"　　
+//  }
+    mui.init
+    ({
+            swipeBack: false,
+    });    
+    mui('.mui-scroll-wrapper').scroll({
+	deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+});
+    options = {
+ scrollY: true, //是否竖向滚动
+ scrollX: false, //是否横向滚动
+ startX: 0, //初始化时滚动至x
+ startY: 0, //初始化时滚动至y
+ indicators: true, //是否显示滚动条
+ deceleration:0.0006, //阻尼系数,系数越小滑动越灵敏
+ bounce: true //是否启用回弹
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,409 @@
+ ul,ol,li{margin: 0; padding: 0;list-style: none;}
+ 
+/*头部*/
+ .index .mui-bar{
+	height:88px;
+}
+.index .mui-main{padding-top:88px; padding-bottom: 50px;}
+.nav{ padding:.3rem  0rem; background: #fff; overflow: hidden; border-top: 1px solid #efefef;}
+.nav li{ float: left; width: 20%; text-align: center; margin-bottom: .15rem;}
+.nav li img{ width: 50%;}
+.layout-class{background-color: #FFFFFF; margin: 0rem 0rem 0rem 0rem;}
+.container-multiColumn-class{ 
+	display: inline-block;
+	background-color: #FFFFFF; 
+    border: 2px solid #F2F2F2;
+    margin: 0.26666666666666666rem 0.4266666666666667rem 0.3466666666666667rem 0.4266666666666667rem;
+    }
+.layout-class .mui-line1{ 	border-bottom: 2px dashed #F2F2F2; display: inline-block;}
+.layout-class .mui-line2{display: inline-block;}
+.layout-class .tmallhot-class{ display: inline-block; padding: .0275066667rem 0 .2666666667rem .4rem;}
+.layout-class .mui-table-view-cell:after{display: none;}
+.layout-class .mui-table-view:after{display: none;}
+.layout-class .mui-table-view:before{display: none;}
+.layout-class .mui-line1 .mui-table-view-cell{float: left; display: block; padding:0;}
+.layout-class .tmallhot-li{ 
+	width: 20%;
+	padding:0 ; 
+    margin:.16rem .2266666667rem .1333333333rem 0}
+.layout-class .tmallhot-img {
+	width: 100%;
+	height: auto;
+   }
+.layout-class .v-gap {
+    height: .8933333333rem;
+    width: .1%;
+    background:#eee;
+    margin:.1066666667rem .2133333333rem 0 0;
+    padding: 0px 0px;
+}
+.layout-class .hot-spot-item{ 
+	width:74%;
+    margin-top:.1066666667rem;}
+.hot-spot-item .line .title {
+    font-size: .32rem;
+    color: #333;
+    font-family: PingFangSC-Regular;
+    line-height: .48rem;
+}
+
+.image-class img {
+    width: 100%;
+    height: 100%;
+    background: inherit;
+}
+
+
+/*商品*/
+.goods{}
+.goods .goods-grid-view { padding: 0 .2rem .2rem .2rem}
+.goods .goods-grid-view .mui-table-view-cell:nth-child(even){ padding: .2rem 0 0 .1rem;}
+
+.goods .goods-grid-view .mui-table-view-cell{margin-right:0px;
+   padding: .2rem .1rem 0 0;}
+.goods .goods-grid-view .mui-table-view-cell>a{z-index: 1000mui-inner-wrap;
+    padding: 0;  border: 1px solid #F2F2F2;}
+.goods .goods-grid-view .mui-table-view-cell>a:not(.mui-btn){ margin: 0;}
+
+.goods .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{
+	font-size:.3rem;    height: .34rem;line-height: .34rem;}
+.goods .rights-area {
+    margin: .16rem 3.466rem 0;
+        text-align: left;
+  /*  height: .4533333333rem;*/
+}
+ .goods .rights-area .right {
+    background-color: #FAD3D5;
+    padding: .08rem;
+    margin-right: .16rem;
+    font-family: PingFangSC-Regular;
+    font-size: .2666666667rem;
+    color: #FF3B44;
+    line-height:.2666666667rem;
+}
+ .goods .buy-line {
+    height: 50.66666667px;
+    padding: 22.66666667px 26.66666667px 18.66666667px  34.66666667px;
+}
+ .goods .buy-line .price {
+    font-family: PingFangSC-Semibold;
+    font-size: .4266666667rem;
+    color: #231F1F;
+    line-height: .4266666667rem;
+    float: left;
+}
+
+ .goods .buy-line .shop-car{
+    width: .5066666667rem;
+    height: .5066666667rem;
+    background: url(../images/shop-car.png);
+    background-size: contain;
+    float: right;
+    margin: auto;
+ 
+}
+
+
+.mui-search.mui-active .mui-placeholder {
+    display: none;
+}
+
+
+/*分类*/
+
+.mui-off-canvas-left{    width: 95%;}
+/*aside .mui-scroll{position:relative;}*/
+.mui-off-canvas-wrap .mui-off-canvas-left .mui-bar{position: relative !important;}
+aside .mui-scroll-wrapper{ position: static;}
+aside .mui-nav{background: #EEE; height: 100%;  }
+aside .mui-nav .mui-segmented-control .mui-control-item
+{ width:auto;
+ display:block;
+  font-size:.3rem; 
+  text-align:center;
+   border-bottom: 1px solid #E1E1E1;
+   }
+aside .mui-nav .mui-segmented-control .mui-control-item.mui-active
+{background:#FFFFFF; border-bottom:1px solid #007aff;}
+aside .mui-nav li a{font-size: .3rem; text-align: center;}
+aside .mui-menu{height: 100%; }
+aside .mui-table-view.mui-grid-view{padding:0;}
+aside .mui-table-view.mui-grid-view:before{background:none;}
+aside .mui-table-view.mui-grid-view:after{background:none;}
+aside .mui-menu .mui-title{ position: relative;text-align:left;padding-left:.5rem; margin:0;}
+
+/*分类商品*/
+ .search-product header{   /*height: .8rem;*/}
+  .search-product .warp {
+    padding-top:45px;
+    padding-bottom: 1.9rem;
+}
+ .search-product .warp .lists {
+    width: 100%;
+}
+ .search-product .warp .top{    width: 100%;
+    height: 1rem;
+    background-color: #fff;}
+.search-product .top ul li {
+    width: 33.333%;
+    text-align: center;
+    line-height: 1rem;
+    float: left;
+    color: #666666;
+    font-size: .4rem;
+}
+
+.search-product .search-goods{}
+
+/*商品详细*/
+.preview{}
+.preview  section{background-color: #FFFFFF;}
+.preview .goods-title{ padding:10px 0 0 0;}
+.preview .goods-title h2{font-size:14px; margin: 0;}
+.preview .s-price{ }
+.preview .s-price .mui-price{font-size: 24px;  color: #dd2727;}
+.preview .s-price .tag {
+    background: #fb6878;
+    color: #fff;
+    height: .14rem;
+    line-height: .14rem;
+    display: inline-block;
+    padding: 0 .04em;
+    margin-right: .07rem;
+    vertical-align: middle;
+    font-size: .1rem;
+    right: -5px;
+}
+.preview .s-price .ui-label{line-height: .12rem;
+    height: .12rem;
+    color: #888;}
+ .preview .s-price .price-origin {
+    vertical-align: middle;
+    font-weight: lighter;
+    font-size: .12rem;
+    color: #888;
+}
+#s-adds #J_indPanel {
+    padding: 0 10px;
+    text-align: left;
+    line-height: 30px;
+    color: #999;
+    font-weight: lighter;
+}
+#s-adds #J_indPanel .cell{float: left; width:33.3%;}
+#s-adds #J_indPanel .clear{clear: both;}
+#s-adds #J_indPanel .delivery{ text-align: right; }
+
+.item2 .mui-table-view-cell img{ width:100%;}
+
+.footerone a:nth-child(1)
+{ 
+	width:.5% ;
+}
+.footerone a:nth-child(2)
+{  
+	width:.5% ;
+}
+.footerone .addcart{ background: #FF9500; color: #FFFFFF;}
+.footerone .buy{ background: #DD2727; color: #FFFFFF;}
+.mui-backdropa{ width: 100%; position: fixed;
+    z-index:1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   }
+.mui-backdrop{ width:100%;}
+.mui-popover.mui-active {
+    display: block;
+    opacity: 1;
+   }
+ .mui-share-off .mui-btn{
+ /*  font-size: .8rem;*/
+  /* line-height: normal;*/
+ 	padding:.1rem;;
+ 	width: .8rem;
+    height: .8rem;
+ 	position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    z-index: 100;
+ }
+  .mui-share-off .mui-btn img{ width: 100%;}
+
+  .mui-share .mui-share-sns{max-height: none; background-color: #fff;
+    padding: 0 5% 5%;
+    height: auto;
+    zoom: 1;}
+  .mui-share .mui-share-sns .summary{    width: 100%;
+    padding-top: .4rem;}
+   
+  .mui-share .mui-share-sns .summary .img {     width: 2rem;
+    height: 2rem;
+    /*margin-top: -1rem;*/
+    font-size: 0;  zoom: 1;
+    border: 1px solid #dfdfdf;
+    text-align: center;}
+    .mui-share .mui-share-sns .summary .mui-left
+    {float: left;
+    display: inline;}
+     .mui-share .mui-share-sns .summary .img img {
+    width: 100%;
+   height: 100%; 
+    display: block;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+  .mui-share .mui-share-sns .summary .main
+  {
+  	/*width: 50%;*/
+    text-align: left;
+    margin-left: 3%;
+  }
+  .mui-share .mui-share-sns .summary .main .mui-title
+  { text-align: left;
+      line-height:.4rem; 
+      font-size: .3rem;
+  	    position: relative;
+  	    padding: 0; margin: 0;
+  }
+  .mui-share .mui-share-sns .summary .stock-control{ line-height:.4rem;  font-size: .3rem;}
+    .mui-share .mui-share-sns .summary .sku-dtips{ line-height:.4rem;  font-size: .3rem;}
+   .mui-share-sns label{    position: relative;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;}
+   .mui-share-sns label.checked {
+    border-color: #b10000;
+    color: #000;
+}
+ .mui-share .mui-share-sns .mui-sku-group h2{font-size: .5rem;}
+ .mui-share .mui-share-sns .mui-sku-group label
+ {padding: .05rem .1rem;
+  margin: 0 .1rem .1rem 0;}
+  .mui-share .mui-share-sns .mui-sku-group label.checked {
+    border-color: #b10000;
+    color: #000;
+}
+.mui-popover .shop-btn{ width:100%; position: absolute; bottom:0;}
+
+/*购物车*/
+.head_msg {
+  
+   			padding-left: 15px;
+   			height: 30px;
+   			display: table-cell;
+    			vertical-align: middle;
+   		}
+    		
+    		
+    		.head_title {
+    			
+    			/*background-color: darkblue;*/
+    			position: relative;
+    			left: 10px;
+    			right: 10px;
+    		}
+    		
+    		.cellImg {
+    			
+    			max-width: 70%;
+    			height: auto;
+    			vertical-align: middle;
+    			position: relative;
+    			left: 5px;
+    		}
+    		
+    		.mui-table-view .mui-table-view-cell {
+    			background: #f3fcfb;
+    		}
+    		.mui-table-view .mui-table-view-cell:after{
+    			left: 0px;
+    		}
+    	
+    		.leftClassCell {
+    			
+    			margin: 0 auto;
+    			padding-top: 5%;
+    			width: 30%;
+    			float: left;
+    			display: table-cell;
+    			vertical-align: middle;
+    		}
+    		.rightClassCell {
+    			
+    			width: 70%;
+    			float: left;
+    		}
+    		
+    		.headSelect:visited {
+    			
+    			background-color:  red;
+    		}
+    		
+    		.downDiv {
+  
+  			background-color: white;
+    			height: 50px;
+    			width: 100%;
+    			/*网页底部*/
+    			position: fixed;
+    			bottom: 0;
+    		}
+    		
+    		
+    		
+    		.mui-icon.iconfont.icon-xuanze1,
+    		.mui-icon.iconfont.icon-xuanze {
+    			font-size: 1.1em;
+    			color: #41CEA9;
+    		}
+    		
+    		.head_title {
+    			vertical-align: baseline;
+    		}
+    		
+    		.mui-numbox {
+    			width: 40%;
+    			height: 100%;
+    			padding: 0px;
+    		}
+    		
+    		.mui-numbox [class*=mui-numbox-btn] {
+    			width: 30%;
+    			height: 100%;
+    			font-size: 1em;
+    			padding-bottom: 0.3em;
+    		}
+    		
+    		.itemName {
+    			color: black;
+    			line-height: 1.2em;
+    		}
+    		.itemfeatures {
+    			font-size: 0.6em;
+    			line-height: 0.5em;
+    			padding-top: 3px;
+    		}
+    		.price {
+    			color: #41CEA9;
+    			padding-top: 0px;
+    			margin-top: 0px;
+    		}
+/*购物车* end/
+   /*footer-menu 尾部导航*/
+.mui-iframe-wrapper{   
+	 height: 50px;
+    z-index: 100;}
+    
+    
+    
+    
+/*登陆*/
+.login .reg{ margin-left:.6rem; color: #000000;}
+.login .forgetPassword{float: right;  margin-right:.6rem; color: #000000;}

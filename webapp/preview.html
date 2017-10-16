@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/iconfont.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <script type="text/javascript">
+      (function (win,doc) {
+        function setSize() {
+          doc.documentElement.style.fontSize=10*document.documentElement.clientWidth/100+'px';
+        }
+        setSize();
+        win.addEventListener('resize',setSize,false)
+      })(window,document)
+  </script>
+</head>
+<body>
+
+    <header id="header" class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">商品详情</h1>
+		</header>
+      
+<div class="mui-content">
+	 <div class="preview goods-info">	
+			<div style="padding: 10px 10px; position: fixed;z-index:10; background:#FFFFFF ;">
+						<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-primary">
+							<a class="mui-control-item mui-active" href="#item1">基本信息</a>
+							<a class="mui-control-item" href="#item2">商品详情</a>
+							<a class="mui-control-item" href="#item3">评价</a>
+						</div>
+		    </div>
+			<div  style="top:55px;position: relative;">
+				<div id="item1" class="mui-control-content mui-active">
+					<div class="mui-slider"><!--轮播-->
+  <div class="mui-slider-group">
+    <!--第一个内容区容器-->
+    <div class="mui-slider-item">
+    <a href="#"> <img src="images/banner.jpg"></a>
+    </div>
+    <!--第二个内容区-->
+    <div class="mui-slider-item">
+    <a href="#"> <img src="images/banner1.jpg"></a>
+    </div>
+    <div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>				
+			</div>
+   </div>
+</div><!--mui-slider 轮播end-->
+					<section class="goods-title"> <h2>ONLY2017夏新修身镂空蕾丝针织连衣裙女|117107555</h2></section>
+<section id="s-price" class="s-price">  <div class="item price-bar pnormal"><span class="mui-price big"><i class="mui-price-rmb">¥</i> <span class="mui-price-integer">324.50</span> <span class="mui-price-decimal"></span>  <em class="tag ">优惠价</em> </span> </div>      <div class="item"><label class="ui-label">价格</label><del class="price-origin">¥649.00</del>   </div> 
+</section>
+<section id="s-adds">
+	<div class="mui-flex" id="J_indPanel">
+		<div class="postage cell">快递: 0.00</div> 
+		<div class="sales cell">月销量 297件</div> 
+		<div class="delivery cell">天津</div>
+			<div class="clear"></div>
+	</div>
+	
+</section>					
+				</div>
+				<div id="item2" class="item2 mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<img src="images/details/details1.jpg" />
+						</li>
+						<li class="mui-table-view-cell">
+							<img src="images/details/details2.jpg" />
+						</li>
+						<li class="mui-table-view-cell">
+							<img src="images/details/details3.jpg" />
+						</li>
+						<li class="mui-table-view-cell">
+							<img src="images/details/details4.jpg" />
+						</li>
+						<li class="mui-table-view-cell">
+							<img src="images/details/details5.jpg" />
+						</li>
+						<li class="mui-table-view-cell">
+							<img src="images/details/details6.jpg" />
+						</li>
+							<li class="mui-table-view-cell">
+							<img src="images/details/details7.jpg" />
+						</li>
+							<li class="mui-table-view-cell">
+							<img src="images/details/details8.jpg" />
+						</li>
+							<li class="mui-table-view-cell">
+							<img src="images/details/details9.jpg" />
+						</li>
+							<li class="mui-table-view-cell">
+							<img src="images/details/details10.jpg" />
+						</li>
+							<li class="mui-table-view-cell">
+							<img src="images/details/details11.jpg" />
+						</li>
+					
+					</ul>
+				</div>
+				<div id="item3" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-1
+						</li>
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-2
+						</li>
+						<li class="mui-table-view-cell">
+							第三个选项卡子项-3
+						</li>
+					</ul>
+				</div>
+			</div>		
+				</div><!-- mui-inner-wrap end-->
+        </div>  <!--mui-content end-->
+
+
+<div class="mui-bar mui-bar-tab footerone">
+		<a class="mui-tab-item mui-active" href="home.html">
+			<span class="mui-icon iconfont icon-home"></span>
+			<span class="mui-tab-label">商城</span>
+		</a>
+		<a id="offCanvasShowa" class="mui-tab-item">
+			<span class="mui-icon iconfont icon-fenlei"></span>
+			<span class="mui-tab-label">客服</span>
+		</a>
+
+		<a  id="addcart" class="mui-tab-item addcart" onclick="openPopover()" >
+			
+			<span class="mui-tab-label">加入购物车</span>
+		</a>
+		<a id="user"  href="login.html" class="mui-tab-item buy">
+			
+			<span class="mui-tab-label">立即购买</span>
+		</a>
+	</div>
+	<div id="popover" class="mui-share mui-popover mui-backdropa ">
+<div class="mui-share-off">
+	<button  id="offbtn" class="mui-btn off-btn">
+		<img src="images/chahao.png" />
+	</button>
+</div>
+  <ul class="mui-table-view mui-share-sns">
+    <li class="mui-table-view-cell summary">
+    <div class="img mui-left">
+    	<img src="images/xj2.png" />
+    </div>
+    <div class="main mui-left">
+    	<p  class="mui-title">单反相机</p>
+    	<div class="stock-control">
+    		<span class="stock"><label class="label">库存</label>4502件</span>
+    	</div>
+    	<div class="sku-dtips">
+    		请选择: <span id="skuTipsContent">机身颜色</span><span >存储容量</span>
+    	</div>
+    </div>
+    </li>
+    <li class="mui-table-view-cell mui-sku-group">
+    	<h2>网络类型</h2>
+    	<div class="items" role="radiogroup"> 
+    		<label  tabindex="0" role="radio" aria-checked="true" class="checked">4G全网通</label> 
+    	</div>
+    </li>
+    
+    <li class="mui-table-view-cell mui-sku-group">
+    	<h2>机身颜色</h2>
+    		<div class="items" role="radiogroup">
+    			<label role="radio" aria-checked="false" class="checked">魅海蓝（4GB）</label>
+    			<label role="radio" aria-checked="false">魅海蓝（6GB）</label>
+    			<label role="radio" aria-checked="false">琥珀金（4GB）</label>
+    			<label role="radio" aria-checked="false">琥珀金（6GB）</label>
+    			<label role="radio" aria-checked="false">海鸥灰（4GB）</label>
+    			<label role="radio" aria-checked="false">海鸥灰（6GB）</label>
+    			<label role="radio" aria-checked="false">幻夜黑(4GB)</label>
+    			<label role="radio" aria-checked="false">幻夜黑(6GB)</label>
+    			<label role="radio" aria-checked="false" class="disabled">知更鸟蓝（4GB）</label>
+    			<label role="radio" aria-checked="false" class="disabled">知更鸟蓝（6GB）</label> 
+    		</div> 	
+    </li>
+    <li class="mui-table-view-cell"><a href="#">Item4</a></li>
+    <li class="mui-table-view-cell"><a href="#">Item5</a></li>
+      <li style="clear: both; display: block;"></li>
+  </ul>
+  <button type="button" class="mui-btn mui-btn-danger shop-btn">红色</button>
+ </div>
+
+<script>
+
+ var addcart = document.getElementById("addcart");
+ var offbtn = document.getElementById("offbtn");
+//监听点击事件
+addcart.addEventListener("tap",function () {
+ 	mui('.mui-popover').popover('show');
+});
+offbtn.addEventListener("tap",function () {
+ 	mui('.mui-popover').popover('hide');
+});
+//function openPopover() {
+//  mui('.mui-popover').popover('toggle');
+//  	     popover.className+="mui-active"　　
+//  }
+    mui.init
+    ({
+            swipeBack: false,
+    });    
+    var Main = mui('#Main');//侧滑容器父节点
+      // 监听tap事件，解决 a标签 不能跳转页面问题
+//mui('body').on('tap','a',function(){document.location.href=this.href;});  
+    //支持区域滚动，需要添加.mui-scroll-wrapper
+
+       
+    //实现ios平台的侧滑关闭页面；
+    if (mui.os.plus && mui.os.ios) 
+    {
+        Main[0].addEventListener('shown',
+        function(e) { //菜单显示完成事件
+            plus.webview.currentWebview().setStyle
+            ({
+                'popGesture': 'none'
+            });
+        });
+        Main[0].addEventListener('hidden',
+        function(e) 
+        {     //菜单关闭完成事件
+            plus.webview.currentWebview().setStyle
+            ({
+                'popGesture': 'close'
+            });
+        });
+    }
+
+    </script>
+</body>
+</html>

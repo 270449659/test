@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/iconfont.css"/>
+	</head>
+
+	<body>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item mui-active" data-url="index.html" href="javascript:;">
+			<span class="mui-icon iconfont icon-home"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a id="offCanvasShowa" class="mui-tab-item" >
+			<span class="mui-icon iconfont icon-fenlei"></span>
+			<span class="mui-tab-label">分类</span>
+		</a>
+
+		<a class="mui-tab-item" data-url="cart.html" href="javascript:;">
+			<span class="mui-icon iconfont icon-cart"></span>
+			<span class="mui-tab-label">购物车</span>
+		</a>
+		<a  id="user"  class="mui-tab-item" data-url="login.html" href="javascript:;"  >
+			<span class="mui-icon iconfont icon-wode"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+		<script src="js/mui.min.js"></script>
+		<script src="js/mui.enterfocus.js"></script>
+		<script src="js/app.js"></script>
+		<script>
+	 mui('.mui-bar-tab').on('tap', 'a', function() {
+				var url = this.getAttribute("data-url");
+				close();
+				mui.openWindow({
+					id: url,
+					url: url,
+					waiting: {
+						autoShow: false
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>
